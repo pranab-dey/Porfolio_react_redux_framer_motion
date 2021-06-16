@@ -1,0 +1,11 @@
+.background {
+	background-image: url('./landingBackground.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+body {
+	background-color: black;
+}
