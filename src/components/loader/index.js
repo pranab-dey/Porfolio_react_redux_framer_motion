@@ -1,7 +1,7 @@
 import React from 'react';
 import './loader.css';
 
-export const Loader = () => {
+export default function Loader() {
 	return (
 		<div className='lds-default'>
 			<div></div>
@@ -18,4 +18,4 @@ export const Loader = () => {
 			<div></div>
 		</div>
 	);
-};
+}
