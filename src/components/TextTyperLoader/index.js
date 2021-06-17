@@ -13,17 +13,20 @@ export default function TextTyperLoader() {
 	return (
 		<div>
 			<pre id='typewriter'>
-				<span className='var-highlight'>const </span>object = {'{ '}
-				{'\n'} name:
-				<span className='string-highlight'>'Foo'</span>,{'\n'} type:
-				<span className='string-highlight'>'Bar'</span>,{'\n'} location:
-				<span className='string-highlight'>'Earth'</span>,{'\n'}{' '}
-				properties:
-				{'['}
+				<span className='var-highlight'>const </span>response = {'{ '}
+				{'\n'} title:
+				<span className='string-highlight'>'Hey There,Welcome!!'</span>,
+				{'\n'} type:
+				<span className='string-highlight'>'Greetings'</span>,{'\n'}{' '}
+				location:
+				<span className='string-highlight'>'Earth'</span>,{'\n'} stage:{' '}
+				<span className='string-highlight'>'Loading....'</span>,{'\n'}
+				{' } '}
+				{/* {'['}
 				<span className='string-highlight'>'Javascript'</span>,
 				<span className='string-highlight'>'HTML'</span>,
 				<span className='string-highlight'>'CSS'</span>
-				{']'};
+				{']'}; */}
 			</pre>
 		</div>
 	);
