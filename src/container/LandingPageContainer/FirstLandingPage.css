@@ -5,7 +5,12 @@
 	height: 100vh;
 	margin: 0 auto;
 }
-
+.loader {
+	display: block;
+	position: absolute;
+	top: 330px;
+	left: 900px;
+}
 body {
 	background-color: black;
 }

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './global.css';
 
-import FirstLandingPage from './pages';
+import LandingPage from './pages';
 
 ReactDOM.render(
 	<React.StrictMode>
-		<FirstLandingPage />
+		<LandingPage />
 	</React.StrictMode>,
 	document.getElementById('root')
 );
