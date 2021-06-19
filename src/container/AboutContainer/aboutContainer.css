@@ -1,0 +1,5 @@
+.container {
+	width: 99vw;
+	height: calc(100vh - 60px);
+	border: 1px solid rgb(189, 32, 72);
+}

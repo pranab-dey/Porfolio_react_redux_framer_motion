@@ -5,7 +5,7 @@ import landingBackground from './landingBackground.jpg';
 
 import { Loader, TextTyperLoader } from '../../components';
 
-export const FirstLandingPage = () => {
+export default function FirstLandingPage() {
 	return (
 		<div className='background'>
 			<img
@@ -20,4 +20,4 @@ export const FirstLandingPage = () => {
 			</div>
 		</div>
 	);
-};
+}

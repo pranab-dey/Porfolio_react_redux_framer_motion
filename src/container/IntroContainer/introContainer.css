@@ -1,0 +1,5 @@
+.introContainer {
+	border: 1px solid red;
+	width: 99vw;
+	height: calc(100vh - 60px);
+}

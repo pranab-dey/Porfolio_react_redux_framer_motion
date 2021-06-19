@@ -1,10 +1,10 @@
 import React from 'react';
-import FirstLandingPage from '../../container';
+import { FirstLandingPage } from '../../container';
 
-export const LandingPage = () => {
+export default function LandingPage() {
 	return (
 		<>
 			<FirstLandingPage />
 		</>
 	);
-};
+}
