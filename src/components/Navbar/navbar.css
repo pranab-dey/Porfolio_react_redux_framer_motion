@@ -4,12 +4,13 @@ li {
 
 .nav {
 	background-color: var(--off-white);
+	border-bottom: 2px solid var(--active-yellow);
 	position: sticky;
 	top: 0px;
 	width: 99vw;
 	height: 60px;
 	z-index: 1000;
-	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav-logo {
@@ -42,7 +43,6 @@ li {
 	letter-spacing: 1px;
 	font-variant: normal;
 	outline: none;
-	/* transition: all 0.1ms ease-out; */
 }
 
 .nav-item:hover {
@@ -52,7 +52,6 @@ li {
 
 .nav-item > .active {
 	color: var(--active-yellow);
-	/* transition: all 0.1ms ease-in; */
 }
 
 @media (max-width: 1070px) {
@@ -70,6 +69,10 @@ li {
 	}
 	.nav {
 		height: 75px;
+	}
+	.nav-logo {
+		margin-left: 10px;
+		margin-top: 5px;
 	}
 }
 

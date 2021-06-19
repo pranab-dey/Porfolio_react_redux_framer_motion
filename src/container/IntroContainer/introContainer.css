@@ -1,5 +1,15 @@
 .introContainer {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 99vw;
 	height: calc(100vh - 60px);
+}
+@media (max-width: 500px) {
+	.container {
+		height: calc(100vh - 75px);
+	}
+}
+@media (max-width: 280px) {
+	.container {
+		height: calc(100vh - 80px);
+	}
 }
