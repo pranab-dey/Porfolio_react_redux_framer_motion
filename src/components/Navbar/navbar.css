@@ -1,3 +1,7 @@
+li {
+	outline: none;
+}
+
 .nav {
 	background-color: var(--off-white);
 	position: sticky;
@@ -30,18 +34,25 @@
 .nav-item {
 	display: inline;
 	margin-left: 2rem;
-	color: #333;
+	color: rgba(0, 0, 0, 1);
 	user-select: none;
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
 	font-variant: normal;
+	outline: none;
+	/* transition: all 0.1ms ease-out; */
 }
 
 .nav-item:hover {
-	color: black;
 	cursor: pointer;
+	color: var(--active-yellow);
+}
+
+.nav-item > .active {
+	color: var(--active-yellow);
+	/* transition: all 0.1ms ease-in; */
 }
 
 @media (max-width: 1070px) {
