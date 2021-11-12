@@ -1,13 +1,16 @@
 li {
 	outline: none;
 }
+body {
+	background-color: wheat;
+}
 
 .nav {
 	background-color: var(--off-white);
 	border-bottom: 2px solid var(--active-yellow);
 	position: sticky;
 	top: 0px;
-	width: 99vw;
+	width: 100vw;
 	height: 60px;
 	z-index: 1000;
 	box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);

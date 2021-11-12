@@ -1,18 +1,23 @@
 .var-highlight {
 	color: #c0ad60;
+	font-weight: bold;
+	font-family: 'Courier New';
 }
 .string-highlight {
 	color: rgba(253, 149, 90, 0.8);
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #typewriter {
 	font-size: 18px;
 	margin: 0;
 	font-family: 'Courier New';
+	color: whitesmoke;
 }
 
 #typewriter:after {
 	content: '|';
+	color: white;
 	animation: blink 400ms linear infinite alternate;
 }
 
@@ -45,6 +50,6 @@
 
 @media screen and (max-width: 1024px) {
 	#typewriter {
-		font-size: 15px;
+		font-size: 20px;
 	}
 }
